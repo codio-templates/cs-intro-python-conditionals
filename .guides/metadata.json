@@ -3,7 +3,13 @@
   {
    "id": "e2330983-4a16-7d2b-ab31-124b33ba514a",
    "title": "Learning Objectives",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Learning-Objectives-e233.md",
