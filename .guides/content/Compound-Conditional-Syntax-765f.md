@@ -17,7 +17,7 @@ if True and True:
 * Have an if statement that says `if True or False:`?
 * Have an if statement that says `if not True or False:`?
 * Have an if statement that says `if True not False:`?
-* Have an if statement that says `if 5 < 10 and 5 > 0`?
+* Have an if statement that says `if 5 < 10 and 5 > 0:`?
 
 |||
 

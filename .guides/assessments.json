@@ -3842,10 +3842,10 @@
    "name": "if statement syntax",
    "showName": false,
    "instructions": "## Reading Question\nRearrange the code blocks below to create an if statement. Not all of the code blocks will be used. **Hint:** do not forget about indenting.",
-   "initial": "if 5 > 4 #distractor\nif (5 > 4) #distractor\nif 5 > 4:\n    print(\"1st command if true\")\n    print(\"2nd command if true\")",
+   "initial": "if 5 > 4 #distractor\nif {5 > 4} #distractor\nif 5 > 4:\n    print(\"1st command if true\")\n    print(\"2nd command if true\")",
    "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}",
    "grader": "",
-   "guidance": "If statements in Python do not have parentheses and end with a `:`. Code that will run if the statement is true must be indented.",
+   "guidance": "If statements in Python do not have `{ }` and end with a `:`. Code that will run if the statement is true must be indented.",
    "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": true,
@@ -4006,8 +4006,8 @@
   "source": {
    "name": "Formative assessment if statement",
    "showName": false,
-   "instructions": "## Even Numbers\nComplete the if statement below so that it will determine if the variable `num` is greater than 100.",
-   "text": "<<<if>>> num > 100<<<:>>>\n        print(\"num is greater than 100\")",
+   "instructions": "## Even Numbers\nComplete the if statement below so that it will determine if the variable `num` is greater than 100. **Note**, do not use parentheses when constructing the conditional.",
+   "text": "```python\n<<<if>>> num > 100<<<:>>>\n        print(\"num is greater than 100\")\n```",
    "guidance": "The boolean expression is already provided. To complete the if statement, the keyword `if` should be used in the first blank, and a `:` should be used in the second.",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
@@ -4045,10 +4045,11 @@
      ":"
     ],
     "text": [
+     "```python\n",
      0,
      " num > 100",
      0,
-     "\n        print(\"num is greater than 100\")"
+     "\n        print(\"num is greater than 100\")\n```"
     ]
    }
   }
@@ -4129,7 +4130,7 @@
    "name": "if else reading question",
    "showName": false,
    "instructions": "## Reading Question\nPlace the following code blocks in their proper place.",
-   "initial": "if 10 < 7:\n    print(\"The boolean expression is false\")\nelse:\n    print(\"The boolean expression is true\")",
+   "initial": "if 10 < 7:\n  print(\"The boolean expression is true\")\nelse:\n  print(\"The boolean expression is false\")",
    "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}",
    "grader": "",
    "guidance": "The if statement comes first. Of the two print statements, the one that prints `true` comes first. Then comes the else statement. Finally, the print statement that prints `false` comes last.\n\n```python\nif 10 < 7:\n    print(\"The boolean expression is true\")\nelse:\n    print(\"The boolean expression is false\")\n```",
@@ -4176,7 +4177,7 @@
   "source": {
    "name": "Formative assessment 1 if else statement",
    "showName": false,
-   "instructions": "## Debug the Code\nWhat is wrong with the code below? **Hint**, there is more than one right answer.(added for QA purposes ) (another try from macOS 10.14.16, Chrome 77)\n\n```python\nif 3 > 4\nprint(\"This is true\")\nelse\nprint(\"This is false\")\n```",
+   "instructions": "## Debug the Code\nWhat is wrong with the code below? **Hint**, there is more than one right answer.\n\n```python\nif 3 > 4\nprint(\"This is true\")\nelse\nprint(\"This is false\")\n```",
    "multipleResponse": true,
    "answers": [
     {
@@ -4460,11 +4461,11 @@
   "source": {
    "name": "elif formative assessment 2",
    "showName": false,
-   "instructions": "## Constructing an Elif Statement\nLook at the code below:\n\n```python\nif my_var == 1:\n    print(\"my_var is 1\")\nif my_var == 2:\n    print(\"my_var is 2\")\nif my_var == 3:\n    print(\"my_var is 3\")\nif my_var == 4:\n    print(\"my_var is 4\")\nif my_var == 5:\n    print(\"my_var is 5\")\n```\n\nUse the code blocks to create an equivalent program that uses elif statements instead of if statement. **Hint**, you will not use all of the code blocks.",
-   "initial": "if my_var == 1:\n    print(\"my_var is 1\")\nelif my_var == 2:\n    print(\"my_var is 2\")\nelif my_var == 3:\n    print(\"my_var is 3\")\nelif my_var == 4:\n    print(\"my_var is 4\")\nelse:\n    print(\"my_var is 5\")\nelif my_var == 1: #distractor\nelse my_var == 5: #distractor\nelse if my_var == 2: #distractor\nelse if my_var == 3: #distractor\nelse if my_var == 4: #distractor",
+   "instructions": "## Constructing an Elif Statement\nLook at the code below:\n\n```python\nif my_var == 1:\n    print(\"my_var is 1\")\nif my_var == 2:\n    print(\"my_var is 2\")\nif my_var == 3:\n    print(\"my_var is 3\")\nif my_var == 4:\n    print(\"my_var is 4\")\nif my_var > 4:\n    print(\"my_var is greater than 4\")\n```\n\nUse the code blocks to create an equivalent program that uses elif statements instead of if statement. **Hint**, you will not use all of the code blocks.",
+   "initial": "if my_var == 1:\n    print(\"my_var is 1\")\nelif my_var == 2:\n    print(\"my_var is 2\")\nelif my_var == 3:\n    print(\"my_var is 3\")\nelif my_var == 4:\n    print(\"my_var is 4\")\nelse:\n    print(\"my_var is greater than 4\")\nelif my_var == 1: #distractor\nelse my_var == 5: #distractor\nelse if my_var == 2: #distractor\nelse if my_var == 3: #distractor\nelse if my_var == 4: #distractor",
    "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}",
    "grader": "",
-   "guidance": "All of the print statements are correct, so they can all be used. The if statement should be first since elif statements required one be first. `elif` is an abbreviation for `else it`, so all of statements with `else if` can be ignored. Finally, the program should end with `else`.\n\n```python\nif my_var == 1:\n    print(\"my_var is 1\")\nif my_var == 2:\n    print(\"my_var is 2\")\nif my_var == 3:\n    print(\"my_var is 3\")\nif my_var == 4:\n    print(\"my_var is 4\")\nif my_var == 5:\n    print(\"my_var is 5\")\n```",
+   "guidance": "All of the print statements are correct, so they can all be used. The if statement should be first since elif statements required one be first. `elif` is an abbreviation for `else if`, so all of statements with `else if` can be ignored. Finally, the program should end with `else`.\n\n```python\nif my_var == 1:\n    print(\"my_var is 1\")\nelif my_var == 2:\n    print(\"my_var is 2\")\nelif my_var == 3:\n    print(\"my_var is 3\")\nelif my_var == 4:\n    print(\"my_var is 4\")\nelse my_var == 5:\n    print(\"my_var is 5\")\n```",
    "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": true,
@@ -9668,6 +9669,54 @@
    },
    "bloomsObjectiveLevel": "3",
    "learningObjectives": "SWBAT construct nested if else statements"
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-2680130036",
+  "source": {
+   "name": "elif statement reading question",
+   "showName": true,
+   "instructions": "## Reading Question\n\nDrag the boxes below into the correct order when evaluating a conditional.",
+   "initial": "if\nelif\nelse",
+   "options": "{\n  \"id\":\"sortableId\"\n}",
+   "grader": "",
+   "guidance": "The `if` statement is always evaluated first. Next, the `elif` statement is evaluated. You can have several `elif` statements, but they must come after the `if` statement. Finally, the `else` statement is evaluated. `if` and `elif` statements cannot appear after `else` unless it is a different conditional.",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     },
+     {
+      "name": "Content",
+      "value": "Conditionals"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "If-elif-else statement"
+     }
+    ],
+    "files": [
+     "code/selection/elif-statement.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/selection/elif-statement.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT identify the proper order of the conditional keywords if, elif,and else"
   }
  }
 ]

@@ -35,3 +35,4 @@ Change `grade` to `65`. You should see `You got a D.` as the output of your prog
 [Code Visualizer](open_tutor code/selection/elif-statement.py)
 {try it}(python3 code/selection/elif-statement.py 2)
 
+{Check It!|assessment}(parsons-puzzle-2680130036)

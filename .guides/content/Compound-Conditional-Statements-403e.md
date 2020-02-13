@@ -25,7 +25,7 @@ if num % 2 == 0 and num > 10:
 
 ## Why Use Compound Conditionals
 
-Both code snippets below do the same thing: Ask if `my_var` is greater than 15 and if `my_var` is less than 20. If both of these are true, then Python will print the value of `my_var`.
+Both code snippets below do the same thing — ask if `my_var` is greater than 15 and if `my_var` is less than 20. If both of these are true, then Python will print the value of `my_var`.
 
 ![compound conditional](.guides/images/compound-conditional.png)
 
