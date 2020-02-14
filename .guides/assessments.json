@@ -3842,7 +3842,7 @@
    "name": "if statement syntax",
    "showName": false,
    "instructions": "## Reading Question\nRearrange the code blocks below to create an if statement. Not all of the code blocks will be used. **Hint:** do not forget about indenting.",
-   "initial": "if 5 > 4 #distractor\nif {5 > 4} #distractor\nif 5 > 4:\n    print(\"1st command if true\")\n    print(\"2nd command if true\")",
+   "initial": "if 5 > 4:\n    print(\"1st command if true\")\n    print(\"2nd command if true\")\nif 5 > 4 #distractor\nif {5 > 4} #distractor",
    "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}",
    "grader": "",
    "guidance": "If statements in Python do not have `{ }` and end with a `:`. Code that will run if the statement is true must be indented.",
@@ -3943,12 +3943,12 @@
     {
      "_id": "a7db6a03-c448-8858-cea1-09b6bc38a703",
      "correct": false,
-     "answer": "Allows specific code to run only when the boolean expression is true."
+     "answer": "Evaluates a boolean expression."
     },
     {
      "_id": "8d0b5862-4883-7f40-a39a-99e671924520",
      "correct": true,
-     "answer": "If statements do not do anything if the boolean expression is false."
+     "answer": "Evaluates code when the boolean expression is false."
     },
     {
      "_id": "c6de5aa5-0f84-2082-8027-1d8c90cccca5",
@@ -3958,7 +3958,7 @@
     {
      "_id": "cb24b48a-44c1-3662-5bb4-26aaf018b894",
      "correct": false,
-     "answer": "Checks to see if a certain condition is true."
+     "answer": "Evaluates code when the boolean expression is false."
     }
    ],
    "guidance": "An if statement does not do anything if the boolean expression is false. It only tests to see if a condition is true. A false expression skips the indented code.",
@@ -3988,13 +3988,7 @@
     "files": [
      "code/selection/if-statement.py"
     ],
-    "opened": [
-     {
-      "type": "file",
-      "panelNumber": 0,
-      "content": "code/selection/if-statement.py"
-     }
-    ]
+    "opened": []
    },
    "bloomsObjectiveLevel": "2",
    "learningObjectives": "SWBAT understand the purpose of an if statement"
@@ -4461,11 +4455,11 @@
   "source": {
    "name": "elif formative assessment 2",
    "showName": false,
-   "instructions": "## Constructing an Elif Statement\nLook at the code below:\n\n```python\nif my_var == 1:\n    print(\"my_var is 1\")\nif my_var == 2:\n    print(\"my_var is 2\")\nif my_var == 3:\n    print(\"my_var is 3\")\nif my_var == 4:\n    print(\"my_var is 4\")\nif my_var > 4:\n    print(\"my_var is greater than 4\")\n```\n\nUse the code blocks to create an equivalent program that uses elif statements instead of if statement. **Hint**, you will not use all of the code blocks.",
-   "initial": "if my_var == 1:\n    print(\"my_var is 1\")\nelif my_var == 2:\n    print(\"my_var is 2\")\nelif my_var == 3:\n    print(\"my_var is 3\")\nelif my_var == 4:\n    print(\"my_var is 4\")\nelse:\n    print(\"my_var is greater than 4\")\nelif my_var == 1: #distractor\nelse my_var == 5: #distractor\nelse if my_var == 2: #distractor\nelse if my_var == 3: #distractor\nelse if my_var == 4: #distractor",
+   "instructions": "## Constructing an Elif Statement\nLook at the code below:\n\n```python\nif my_var == 1:\n    print(\"my_var is 1\")\nif my_var == 2:\n    print(\"my_var is 2\")\nif my_var > 2:\n    print(\"my_var is greater than 2\")\n```\n\nUse the code blocks to create an equivalent program that uses elif statements instead of if statement. **Hint**, you will not use all of the code blocks.",
+   "initial": "if my_var == 1:\n    print(\"my_var is 1\")\nelif my_var == 2:\n    print(\"my_var is 2\")\nelse:\n    print(\"my_var is greater than 2\")\nelse my_var > 2: #distractor\nelse if my_var == 2: #distractor",
    "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}",
    "grader": "",
-   "guidance": "All of the print statements are correct, so they can all be used. The if statement should be first since elif statements required one be first. `elif` is an abbreviation for `else if`, so all of statements with `else if` can be ignored. Finally, the program should end with `else`.\n\n```python\nif my_var == 1:\n    print(\"my_var is 1\")\nelif my_var == 2:\n    print(\"my_var is 2\")\nelif my_var == 3:\n    print(\"my_var is 3\")\nelif my_var == 4:\n    print(\"my_var is 4\")\nelse my_var == 5:\n    print(\"my_var is 5\")\n```",
+   "guidance": "All of the print statements are correct, so they can all be used. The `if` statement should be first, followed by the `elif` statement. `elif` is an abbreviation for `else if`, so the statemente with `else if` can be ignored. Finally, the program should end with `else`, which does not require a boolean expression.\n\n```python\nif my_var == 1:\n    print(\"my_var is 1\")\nelif my_var == 2:\n    print(\"my_var is 2\")\nelse:\n    print(\"my_var is greater than 2\")\n```",
    "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": true,
@@ -4922,7 +4916,7 @@
   "source": {
    "name": "self-check compound conditionals",
    "showName": false,
-   "instructions": "## Self-Check Compound Conditionals\nSelect all of the compound conditionals that are correctly written. **Hint**, there is more than one right answer.",
+   "instructions": "## Lab Question\n\nSelect all of the compound conditionals that are correctly written. **Hint**, there is more than one right answer.",
    "multipleResponse": true,
    "answers": [
     {
@@ -4971,9 +4965,16 @@
      }
     ],
     "files": [
+     "code/selection/lab3.py",
      "code/selection/lab_challenge.py"
     ],
-    "opened": []
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/selection/lab3.py"
+     }
+    ]
    },
    "bloomsObjectiveLevel": "3",
    "learningObjectives": "SWBAT properly construct a compound conditional"
@@ -4985,7 +4986,7 @@
   "source": {
    "name": "self-check if else",
    "showName": false,
-   "instructions": "## Self-Check 3\n\nDrag the appropriate code blocks into the box below. Your program should check to see if a number is even and print \"Even\". If the number is odd, then print \"Odd\". Assume the variable `x` represents the number to be tested.",
+   "instructions": "## Lab Question\n\nDrag the appropriate code blocks into the box below. Your program should check to see if a number is even and print \"Even\". If the number is odd, then print \"Odd\". Assume the variable `x` represents the number to be tested.",
    "initial": "if x % 2 == 0:\n    print(\"Even\")\nelse:\n    print(\"Odd\")\nif x % 2 = 0 #distractor\nif x // 2 == 0: #distractor\nelif: #distractor\nelse #distractor\nprint(Even) #distractor\nprint(Odd) #distractor",
    "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}",
    "grader": "",
@@ -5013,13 +5014,14 @@
      }
     ],
     "files": [
+     "code/selection/lab2.py",
      "code/selection/lab_challenge.py"
     ],
     "opened": [
      {
       "type": "file",
       "panelNumber": 0,
-      "content": "code/selection/lab_challenge.py"
+      "content": "code/selection/lab2.py"
      }
     ]
    },
@@ -5033,7 +5035,7 @@
   "source": {
    "name": "self check conditionals if",
    "showName": false,
-   "instructions": "## Self-Check If Statements\nSelect all of the statements below that are true with regards to if statements. **Hint**, there is more than one correct answer.",
+   "instructions": "## Lab Question\n\nSelect all of the statements below that are true with regards to if statements. **Hint**, there is more than one correct answer.",
    "multipleResponse": true,
    "answers": [
     {
@@ -5081,8 +5083,16 @@
       "value": "If statement"
      }
     ],
-    "files": [],
-    "opened": []
+    "files": [
+     "code/selection/lab1.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/selection/lab1.py"
+     }
+    ]
    },
    "bloomsObjectiveLevel": "2",
    "learningObjectives": "SWBAT understand the characteristics of an if statement"
@@ -5094,12 +5104,12 @@
   "source": {
    "name": "self check conditionals elif",
    "showName": false,
-   "instructions": "## Self-Check If Elif Else\nImagine that the variable `x` contains a number between 0 and 20. Rearrange the code blocks below to create  a program that see if `x` is between 0 and 5, 5 to 10, 10 to 15, or between 15 and 20.",
+   "instructions": "## Lab Question\n\nImagine that the variable `x` contains a number between 0 and 20. Rearrange the code blocks below to create  a program that see if `x` is between 0 and 5, 5 to 10, 10 to 15, or between 15 and 20.",
    "initial": "if x <= 5:\n    print(\"x is between 0 and 5\")\nelif x <= 10:\n    print(\"x is between 5 and 10\")\nelif x <= 15:\n    print(\"x is between 10 and 15\")\nelse:\n    print(\"x is between 15 and 20\")",
    "options": "{\n  \"sortableId\": \"sortable\"\n}",
    "grader": "",
    "guidance": "```python\nif x <= 5:\n    print(\"x is between 0 and 5\")\nelif x <= 10:\n    print(\"x is between 5 and 10\")\nelif x <= 15:\n    print(\"x is between 10 and 15\")\nelse:\n    print(\"x is between 15 and 20\")\n```\n\nThe order of the code is important. If the order were different, you could get a false positive. Take a look at the code below:\n\n```python\nx = 8\n\nif x <= 5:\n    print(\"x is between 0 and 5\")\nelif x <= 15:\n    print(\"x is between 10 and 15\")\nelif x <= 10:\n    print(\"x is between 5 and 10\")\nelse:\n    print(\"x is between 15 and 20\")\n```\n\nThe incorrect code would print `x is between 10 and 15` even though that is not true. The boolean expressions should go in ascending order.",
-   "showGuidanceAfterResponse": false,
+   "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": true,
    "metadata": {
@@ -5121,8 +5131,16 @@
       "value": "Elif statements"
      }
     ],
-    "files": [],
-    "opened": []
+    "files": [
+     "code/selection/lab4.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/selection/lab4.py"
+     }
+    ]
    },
    "bloomsObjectiveLevel": "4",
    "learningObjectives": "SWBAT recognize that order is important with elif statements"
@@ -5145,7 +5163,7 @@
     "ignoreCase": true,
     "ignoreWhitespaces": true,
     "ignoreNewline": true,
-    "matchSubstring": true,
+    "matchSubstring": false,
     "timeout": 30
    },
    "showExpectedAnswer": true,
@@ -5161,6 +5179,13 @@
      "arguments": "93",
      "input": "",
      "output": "93 is between 0 and 25 or 75 and 100",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "50",
+     "input": "",
+     "output": "",
      "showFeedback": false,
      "feedback": ""
     }
@@ -9676,7 +9701,7 @@
   "taskId": "parsons-puzzle-2680130036",
   "source": {
    "name": "elif statement reading question",
-   "showName": true,
+   "showName": false,
    "instructions": "## Reading Question\n\nDrag the boxes below into the correct order when evaluating a conditional.",
    "initial": "if\nelif\nelse",
    "options": "{\n  \"id\":\"sortableId\"\n}",

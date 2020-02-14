@@ -8,6 +8,7 @@ Use the variable `x` as you write this program. `x` will represent a positive in
 **Expected Output**
 * If `x` is `8`, then the output would be: `8 is between 0 and 25 or 75 and 100`.
 * If `x` is `80`, then the output would be: `80 is between 0 and 25 or 75 and 100`.
+* If `x` is `50`, then the output would be blank (your program does not print anything).
 
 
 **Important**

@@ -26,5 +26,40 @@
    "toggleStates": "{}"
   },
   "results": []
+ },
+ {
+  "taskId": "parsons-puzzle-2790602047",
+  "points": 0,
+  "state": {
+   "trashHash": null,
+   "solutionHash": null,
+   "toggleStates": "{}"
+  },
+  "results": []
+ },
+ {
+  "taskId": "parsons-puzzle-139432121",
+  "points": 0,
+  "state": {
+   "trashHash": null,
+   "solutionHash": null,
+   "toggleStates": "{}"
+  },
+  "results": []
+ },
+ {
+  "taskId": "parsons-puzzle-3355268222",
+  "points": 0,
+  "state": {
+   "trashHash": null,
+   "solutionHash": null,
+   "toggleStates": "{}"
+  },
+  "results": []
+ },
+ {
+  "taskId": "code-output-compare-2805811716",
+  "points": 0,
+  "results": []
  }
 ]

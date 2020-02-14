@@ -1,5 +1,5 @@
 ########################################################
-# Erase the variable numbers before submitting your work
+# Erase the variable x before submitting your work
 ########################################################
 
 x = 
