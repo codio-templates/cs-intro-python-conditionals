@@ -3958,7 +3958,7 @@
     {
      "_id": "cb24b48a-44c1-3662-5bb4-26aaf018b894",
      "correct": false,
-     "answer": "Evaluates code when the boolean expression is false."
+     "answer": "Determines if something is True or False."
     }
    ],
    "guidance": "An if statement does not do anything if the boolean expression is false. It only tests to see if a condition is true. A false expression skips the indented code.",
