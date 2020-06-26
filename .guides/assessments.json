@@ -4455,10 +4455,10 @@
   "source": {
    "name": "elif formative assessment 2",
    "showName": false,
-   "instructions": "## Constructing an Elif Statement\nLook at the code below:\n\n```python\nif my_var == 1:\n    print(\"my_var is 1\")\nif my_var == 2:\n    print(\"my_var is 2\")\nif my_var > 2:\n    print(\"my_var is greater than 2\")\n```\n\nUse the code blocks to create an equivalent program that uses elif statements instead of if statement. **Hint**, you will not use all of the code blocks.",
-   "initial": "if my_var == 1:\n    print(\"my_var is 1\")\nelif my_var == 2:\n    print(\"my_var is 2\")\nelse:\n    print(\"my_var is greater than 2\")\nelse my_var > 2: #distractor\nelse if my_var == 2: #distractor",
-   "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}",
-   "grader": "",
+   "instructions": "## Constructing an Elif Statement\nLook at the code below:\n\n```python\nif my_var < 1:\n    print(\"my_var is less than 1\")\nif my_var == 1:\n    print(\"my_var is 1\")\nif my_var > 1:\n    print(\"my_var is greater than 1\")\n```\n\nUse the code blocks to create an equivalent program that uses elif statements instead of if statement. **Hint**, you will not use all of the code blocks.",
+   "initial": "if my_var < 1:\n    print(\"my_var is less than 1\")\nelif my_var == 1:\n    print(\"my_var is 1\")\nelse:\n    print(\"my_var is greater than 1\")\nelse my_var > 2:   #distractor\nelse if my_var == 2:   #distractor",
+   "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
+   "grader": "1",
    "guidance": "All of the print statements are correct, so they can all be used. The `if` statement should be first, followed by the `elif` statement. `elif` is an abbreviation for `else if`, so the statemente with `else if` can be ignored. Finally, the program should end with `else`, which does not require a boolean expression.\n\n```python\nif my_var == 1:\n    print(\"my_var is 1\")\nelif my_var == 2:\n    print(\"my_var is 2\")\nelse:\n    print(\"my_var is greater than 2\")\n```",
    "showGuidanceAfterResponse": true,
    "points": 1,
@@ -5403,7 +5403,7 @@
    "showExpectedAnswer": true,
    "sequence": [
     {
-     "arguments": "\"red\"",
+     "arguments": "red",
      "input": "",
      "output": "red is a primary color",
      "showFeedback": false,
