@@ -11,9 +11,9 @@ Use the variable `x` as you write this program. `x` will represent a string. Wri
 
 
 **Important**
-You will need to declare the variable `x` as you write and test your code. However, do not submit your code to be graded with the variable declaration. The auto-grader will declare the variable for you.
+The variable `x` is already declared for you. Please **do not** modify the code on lines 5 and 6.
 
-[Code Visualizer](open_tutor code/selection/exercise4.py)
-{try it}(python3 code/selection/exercise4.py)
+{try with x = 'red'}(python3 code/selection/exercise4.py red)
+{try with x = 'teal'}(python3 code/selection/exercise4.py teal)
 
 {Check It!|assessment}(code-output-compare-3603717044)
