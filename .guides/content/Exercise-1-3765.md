@@ -12,11 +12,15 @@ Use the variable `x` as you write this program. `x` will represent a positive in
 
 
 **Important**
-You will need to declare the variable `x` as you write and test your code. However, do not submit your code to be graded with the variable declaration. The auto-grader will declare the variable for you.
+The variable `x` is already declared for you. Please **do not** modify the code on lines 5 and 6.
 
-<details><summary>**Type Casting**</summary>Use the `str(x)` command to type cast the variable `x` as a string.</details>
+<details>
+  <summary><strong>Type Casting</strong></summary>
+  Use the <code>str(x)</code> command to type cast the variable <code>x</code> as a string.
+</details><br>
 
-[Code Visualizer](open_tutor code/selection/exercise1.py)
-{try it}(python3 code/selection/exercise1.py)
+{try with x = 8}(python3 code/selection/exercise1.py 8)
+{try with x = 80}(python3 code/selection/exercise1.py 80)
+{try with x = 50}(python3 code/selection/exercise1.py 50)
 
 {Check It!|assessment}(code-output-compare-2805811716)

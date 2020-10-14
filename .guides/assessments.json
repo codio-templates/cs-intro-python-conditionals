@@ -5152,7 +5152,7 @@
   "source": {
    "name": "conditionals exercise 1",
    "showName": false,
-   "instructions": "**Remember**, do not declare the variable `x` in your code when you submit it. The auto-grader will declare the variable for you.",
+   "instructions": "Submit your code to be evaluated when ready. **Remember**, do not edit the code on lines 5 and 6.",
    "command": "python3 .guides/secure/conditionals_exercise_1_test.py",
    "preExecuteCommand": "",
    "guidance": "Since you are testing if `x` is between two ranges, you need a compound conditional. Also, `x` can fall into either of the ranges, so use the `or` keyword to connect the two boolean expressions. Nothing is to be done if the compound conditional is false, so you do not need to use an `else` or `elif`. Here is one solution to the problem:\n\n```python\nif x > 0 and x < 25 or x > 75 and x < 100:\n    print(str(x) + \" is between 0 and 25 or 75 and 100\")\n```",
@@ -5167,6 +5167,7 @@
     "timeout": 30
    },
    "showExpectedAnswer": true,
+   "arePartialPointsAllowed": false,
    "sequence": [
     {
      "arguments": "17",
@@ -5230,7 +5231,7 @@
   "source": {
    "name": "conditionals exercise 2",
    "showName": false,
-   "instructions": "**Remember**, do not declare the variable `x` in your code when you submit it. The auto-grader will declare the variable for you.",
+   "instructions": "Submit your code to be evaluated when ready. **Remember**, do not edit the code on lines 5 and 6.",
    "command": "python3 .guides/secure/conditionals_exercise_2_test.py",
    "preExecuteCommand": "",
    "guidance": "The question is asking a single question, is `x` divisible by 5? You do not need a compound conditional. Since you have to print two separate messages (one for true, the other for false), you will need to use `else`. There are no more questions about `x`, so you do not need to use `elif` Here is a possible solution:\n\n```python\nif x % 5 == 0:\n    print(str(x) + \" is divisible by 5\")\nelse:\n    print(str(x) + \" is not divisible by 5\")\n```",
@@ -5245,6 +5246,7 @@
     "timeout": 30
    },
    "showExpectedAnswer": true,
+   "arePartialPointsAllowed": false,
    "sequence": [
     {
      "arguments": "5",
@@ -5308,7 +5310,7 @@
   "source": {
    "name": "conditionals exercise 3",
    "showName": false,
-   "instructions": "**Remember**, do not declare the variable `x` in your code when you submit it. The auto-grader will declare the variable for you.",
+   "instructions": "Submit your code to be evaluated when ready. **Remember**, do not edit the code on lines 5 and 6.",
    "command": "python3 .guides/secure/conditionals_exercise_3_test.py",
    "preExecuteCommand": "",
    "guidance": "Two things have to be true (divisible by 5 and even), so you need to use a compound conditional. Since both of these need to be true, use the `and` keyword to connect the boolean expressions. You will also need to print a message if the compound conditional is false, so use the `else` keyword. There are no more questions so do not use `elif`. Here is one possible solution:\n\n```python\nif x % 5 == 0 and x % 2 == 0:\n    print(str(x) + \" is divisible by 5 and even\")\nelse:\n    print(str(x) + \" is not divisible by 5 or it is odd\")\n```",
@@ -5323,6 +5325,7 @@
     "timeout": 30
    },
    "showExpectedAnswer": true,
+   "arePartialPointsAllowed": false,
    "sequence": [
     {
      "arguments": "10",
@@ -5386,7 +5389,7 @@
   "source": {
    "name": "conditionals exercise 4",
    "showName": false,
-   "instructions": "**Remember**, do not declare the variable `x` in your code when you submit it. The auto-grader will declare the variable for you.",
+   "instructions": "Submit your code to be evaluated when ready. **Remember**, do not edit the code on lines 5 and 6.",
    "command": "python3 .guides/secure/conditionals_exercise_4_test.py",
    "preExecuteCommand": "",
    "guidance": "The problem states that you have to use an `elif` statement. You also do not need a compound conditional because of the `elif`. Here is one possible solution:\n\n```python\nif x == \"red\":\n    print(x + \" is a primary color\")\nelif x == \"blue\":\n    print(x + \" is a primary color\")\nelif x == \"yellow\":\n    print(x + \" is a primary color\")\nelse:\n    print(x + \" is not a primary color\")\n```",
@@ -5401,6 +5404,7 @@
     "timeout": 30
    },
    "showExpectedAnswer": true,
+   "arePartialPointsAllowed": false,
    "sequence": [
     {
      "arguments": "red",
@@ -5464,7 +5468,7 @@
   "source": {
    "name": "conditionals exercise 5",
    "showName": false,
-   "instructions": "**Remember**, do not declare the variable `x` in your code when you submit it. The auto-grader will declare the variable for you.",
+   "instructions": "Submit your code to be evaluated when ready. **Remember**, do not edit the code on lines 5 and 6.",
    "command": "python3 .guides/secure/conditionals_exercise_5_test.py",
    "preExecuteCommand": "",
    "guidance": "The problem does not specify how to code the solution. Like Exercise 4, you can use a series of `elif` statements to determine if `x` is a vowel. It is also possible to use a long compound conditional. Here is one possible solution:\n\n```python\nif x == \"a\" or x == \"e\" or x ==\"i\" or x == \"o\" or x == \"u\":\n    print(x + \" is a vowel\")\nelse:\n    print(x + \" is not a vowel\")\n```",
@@ -5479,6 +5483,7 @@
     "timeout": 30
    },
    "showExpectedAnswer": true,
+   "arePartialPointsAllowed": false,
    "sequence": [
     {
      "arguments": "e",

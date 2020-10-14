@@ -28,7 +28,10 @@ Add the letter grade D which is any grade from 60 to 69?
 
 **Testing Your Code**
 Change `grade` to `65`. You should see `You got a D.` as the output of your program.
-<details><summary>**Hint**</summary>You need to change the if statement and add another elif statement.</details>
+<details>
+  <summary><strong>Hint</strong></summary>
+  You need to change the if statement and add another <code>elif</code> statement.
+</details>
 
 |||
 

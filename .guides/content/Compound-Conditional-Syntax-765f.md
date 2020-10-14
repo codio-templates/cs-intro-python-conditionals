@@ -24,7 +24,10 @@ if True and True:
 [Code Visualizer](open_tutor code/selection/compound-conditional-syntax.py)
 {try it}(python3 code/selection/compound-conditional-syntax.py 2)
 
-<details><summary>**Compound Less Than or Greater Than**</summary>This is Python specific syntax, but it is possible to combine a compound conditional to look like something from a math class. Imagine you have a variable `a` with the value of `5`. You can rewrite `a < 10 and a > 0` to be `0 < a < 10`.</details>
+<details>
+  <summary><strong>Compound Less Than or Greater Than</strong></summary>
+  This is Python specific syntax, but it is possible to combine a compound conditional to look like something from a math class. Imagine you have a variable <code>a</code> with the value of <code>5</code>. You can rewrite <code>a < 10 and a > 0</code> to be <code>0 < a < 10</code>.
+  </details>
 
 {Check It!|assessment}(multiple-choice-2216399909)
 
