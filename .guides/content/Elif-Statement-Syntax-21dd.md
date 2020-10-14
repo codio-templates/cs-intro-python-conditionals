@@ -10,7 +10,10 @@ The elif statement is written similarly to the if statement. There are few diffe
 * You can write as many elif statements as you want
 * An else statement must come after the last elif statement
 
-<details><summary><b>What does `elif` mean?</b></summary>`elif` is an abbreviation of `else` and `if`. Since elif statements are common, the command was simplified so programmers would not have to write `else if`.</details>
+<details>
+  <summary><b>What does <code>elif</code> mean?</b></summary>
+  <code>elif</code> is an abbreviation of <code>else</code> and <code>if</code>. Since <code>elif</code> statements are common, the command was simplified so programmers would not have to write <code>else if</code>.
+</details>
 
 ![elif Statement](.guides/images/elif-statement.png)
 

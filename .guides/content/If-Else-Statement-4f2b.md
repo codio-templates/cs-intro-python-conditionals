@@ -42,7 +42,10 @@ else:
     print(str(num) + " is an odd number")
 ```
 
-<details><summary>**Refresher:`str`**</summary>The `str` function is used to convert (also called type casting) the value of `num` into a string so that it can be joined (concatenated) with the other string.</details>
+<details>
+  <summary><strong>Refresher:<code>str</code></strong></summary>
+  The <code>str</code> function is used to convert (also called type casting) the value of <code>num</code> into a string so that it can be joined (concatenated) with the other string.
+</details>
 
 {try it}(python3 code/selection/if-else-statement.py 3)
 
